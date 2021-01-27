@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="27896" started-at="2021-01-27T16:16:06 CET" finished-at="2021-01-27T16:16:34 CET">
+    <groups>
+    </groups>
+    <test name="Validating User login" duration-ms="27896" started-at="2021-01-27T16:16:06 CET" finished-at="2021-01-27T16:16:34 CET">
+      <class name="TestCases.validateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:TestCases.validateTitle@20ccf40b]" name="initialize" is-config="true" duration-ms="40" started-at="2021-01-27T16:16:06 CET" finished-at="2021-01-27T16:16:06 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:TestCases.validateTitle@20ccf40b]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-01-27T16:16:08 CET" finished-at="2021-01-27T16:16:08 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.validateTitle.TC1(java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:TestCases.validateTitle@20ccf40b]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2021-01-27T16:16:08 CET" finished-at="2021-01-27T16:16:08 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.validateTitle.TC2(java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC1(java.lang.String, java.lang.String)[pri:0, instance:TestCases.validateTitle@20ccf40b]" name="TC1" duration-ms="6404" started-at="2021-01-27T16:16:08 CET" data-provider="Authentication" finished-at="2021-01-27T16:16:14 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method status="PASS" signature="TC2(java.lang.String, java.lang.String)[pri:0, instance:TestCases.validateTitle@20ccf40b]" name="TC2" duration-ms="6394" started-at="2021-01-27T16:16:08 CET" data-provider="Authentication" finished-at="2021-01-27T16:16:14 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestCases.validateTitle@20ccf40b]" name="afterMethod" is-config="true" duration-ms="62" started-at="2021-01-27T16:16:14 CET" finished-at="2021-01-27T16:16:14 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC2 status=SUCCESS method=validateTitle.TC2(java.lang.String, java.lang.String)[pri:0, instance:TestCases.validateTitle@20ccf40b] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TestCases.validateTitle.TC2(java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestCases.validateTitle@20ccf40b]" name="afterMethod" is-config="true" duration-ms="151" started-at="2021-01-27T16:16:14 CET" finished-at="2021-01-27T16:16:14 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC1 status=SUCCESS method=validateTitle.TC1(java.lang.String, java.lang.String)[pri:0, instance:TestCases.validateTitle@20ccf40b] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TestCases.validateTitle.TC1(java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:TestCases.validateTitle@20ccf40b]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2021-01-27T16:16:14 CET" finished-at="2021-01-27T16:16:14 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.validateTitle.TC4(java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC4(java.lang.String, java.lang.String)[pri:0, instance:TestCases.validateTitle@20ccf40b]" name="TC4" duration-ms="11111" started-at="2021-01-27T16:16:14 CET" data-provider="Authentication" finished-at="2021-01-27T16:16:25 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4 -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:TestCases.validateTitle@20ccf40b]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-01-27T16:16:14 CET" finished-at="2021-01-27T16:16:14 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.validateTitle.TC3(java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC3(java.lang.String, java.lang.String)[pri:0, instance:TestCases.validateTitle@20ccf40b]" name="TC3" duration-ms="4307" started-at="2021-01-27T16:16:14 CET" data-provider="Authentication" finished-at="2021-01-27T16:16:19 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestCases.validateTitle@20ccf40b]" name="afterMethod" is-config="true" duration-ms="64" started-at="2021-01-27T16:16:19 CET" finished-at="2021-01-27T16:16:19 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC3 status=SUCCESS method=validateTitle.TC3(java.lang.String, java.lang.String)[pri:0, instance:TestCases.validateTitle@20ccf40b] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TestCases.validateTitle.TC3(java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:TestCases.validateTitle@20ccf40b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-01-27T16:16:19 CET" finished-at="2021-01-27T16:16:19 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.validateTitle.TC5(java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC5(java.lang.String, java.lang.String)[pri:0, instance:TestCases.validateTitle@20ccf40b]" name="TC5" duration-ms="11069" started-at="2021-01-27T16:16:19 CET" data-provider="Authentication" finished-at="2021-01-27T16:16:30 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC5 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestCases.validateTitle@20ccf40b]" name="afterMethod" is-config="true" duration-ms="69" started-at="2021-01-27T16:16:25 CET" finished-at="2021-01-27T16:16:25 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC4 status=SUCCESS method=validateTitle.TC4(java.lang.String, java.lang.String)[pri:0, instance:TestCases.validateTitle@20ccf40b] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TestCases.validateTitle.TC4(java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:TestCases.validateTitle@20ccf40b]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-01-27T16:16:26 CET" finished-at="2021-01-27T16:16:26 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.validateTitle.TC6(java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC6(java.lang.String, java.lang.String)[pri:0, instance:TestCases.validateTitle@20ccf40b]" name="TC6" duration-ms="8702" started-at="2021-01-27T16:16:26 CET" data-provider="Authentication" finished-at="2021-01-27T16:16:34 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC6 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestCases.validateTitle@20ccf40b]" name="afterMethod" is-config="true" duration-ms="75" started-at="2021-01-27T16:16:30 CET" finished-at="2021-01-27T16:16:30 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC5 status=SUCCESS method=validateTitle.TC5(java.lang.String, java.lang.String)[pri:0, instance:TestCases.validateTitle@20ccf40b] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TestCases.validateTitle.TC5(java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestCases.validateTitle@20ccf40b]" name="afterMethod" is-config="true" duration-ms="73" started-at="2021-01-27T16:16:34 CET" finished-at="2021-01-27T16:16:34 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC6 status=SUCCESS method=validateTitle.TC6(java.lang.String, java.lang.String)[pri:0, instance:TestCases.validateTitle@20ccf40b] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TestCases.validateTitle.TC6(java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestCases.validateTitle@20ccf40b]" name="teardown" is-config="true" duration-ms="0" started-at="2021-01-27T16:16:34 CET" finished-at="2021-01-27T16:16:34 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.validateTitle -->
+    </test> <!-- Validating User login -->
+  </suite> <!-- Suite -->
+</testng-results>

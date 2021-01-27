@@ -1,0 +1,7 @@
+16:03:33.132 [TestNG-test=Validating User login-2] INFO  resources.base - Driver is initialized
+16:03:33.670 [TestNG-test=Validating User login-1] INFO  resources.base - Driver is initialized
+16:03:35.326 [TestNG-test=Validating User login-3] INFO  resources.base - Driver is initialized
+16:04:41.877 [main] INFO  resources.base - Test started
+16:04:41.879 [main] INFO  resources.base - Navigated to Home page
+16:04:47.785 [main] INFO  resources.base - Driver is initialized
+16:04:52.130 [main] INFO  resources.base - Driver is initialized

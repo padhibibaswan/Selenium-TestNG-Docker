@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+<listeners>
+<listener class-name="Academy.Listeners"/>
+</listeners>
+
+  	 <test name="Validating User login" parallel = "methods" thread-count = "2">
+  	  <!--<test name="Validating User login" >-->
+    	<classes>
+      		<class name="TestCases.validateTitle"/>
+          </classes>
+     </test>
+      
+     
+   <!-- Test -->
+</suite> <!-- Suite -->
